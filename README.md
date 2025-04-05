@@ -1,7 +1,7 @@
 <h1 align="center">🎵 TeamX Music Bot 🎵</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/vpox28.jpg" alt="TeamX Music Logo" width="600" height="400">
+  <img src="https://files.catbox.moe/hxzqbf.jpg" alt="TeamX Music Logo" width="600" height="400">
 </p>
 
 
@@ -35,7 +35,7 @@ This process will allow you to bypass the YouTube restrictions and ensure smooth
 ---
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/informasgher89745/TeamX2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/strad-dev131/TeamXmusic)
 
 ---
 
