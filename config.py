@@ -41,8 +41,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamXUpdate")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TeamsXchat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheToxicBots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TheToxicDevelopers")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -83,22 +83,22 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/hxzqbf.jpg"
+    "START_IMG_URL", "https://TeamX-bot.github.io/tg/img/start.png"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/hxzqbf.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/hxzqbf.jpg"
+PLAYLIST_IMG_URL = "https://TeamX-bot.github.io/tg/img/playlist.jpg"
+STATS_IMG_URL = "https://TeamX-bot.github.io/tg/img/stats.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/hxzqbf.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/hxzqbf.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/hxzqbf.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://TeamX-bot.github.io/tg/img/sp_artist.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://TeamX-bot.github.io/tg/img/sp_album.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://TeamX-bot.github.io/tg/img/sp_playlist.jpg"
 
 
 def time_to_seconds(time):
