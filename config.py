@@ -83,7 +83,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://strad-dev131.github.io/TeamXsrc/img/start.gif"
+    "START_IMG_URL", "https://strad-dev131.github.io/TeamXsrc/mp4/start.mp4"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
