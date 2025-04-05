@@ -111,7 +111,7 @@ For a full list of commands, use `/help` in [telegram](https://t.me/TeamXBot).
 Stay updated with the latest features and improvements to TeamX Music Bot:
 
 <p align="center">
-  <a href="https://t.me/TeamXUpdate">
+  <a href="https://t.me/TeamsXchat">
     <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
   </a>
   <a href="https://t.me/TeamXUpdate">
