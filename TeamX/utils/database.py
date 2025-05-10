@@ -1,6 +1,4 @@
 import random
-import asyncio
-from datetime import date
 from typing import Dict, List, Union
 
 from TeamX import userbot
@@ -9,12 +7,10 @@ from TeamX.core.mongo import mongodb
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
 autoenddb = mongodb.autoend
-autoleavedb = mongodb.autoleave
 assdb = mongodb.assistants
 blacklist_chatdb = mongodb.blacklistChat
 blockeddb = mongodb.blockedusers
 chatsdb = mongodb.chats
-chatdb = mongodb.chat
 channeldb = mongodb.cplaymode
 countdb = mongodb.upcount
 gbansdb = mongodb.gban
@@ -31,7 +27,6 @@ active = []
 activevideo = []
 assistantdict = {}
 autoend = {}
-autoleave = {}
 count = {}
 channelconnect = {}
 langm = {}
@@ -217,23 +212,6 @@ async def autoend_on():
 async def autoend_off():
     chat_id = 1234
     await autoenddb.delete_one({"chat_id": chat_id})
-
-async def is_autoleave() -> bool:
-    chat_id = 1234
-    user = await autoleavedb.find_one({"chat_id": chat_id})
-    if not user:
-        return False
-    return True
-
-
-async def autoleave_on():
-    chat_id = 1234
-    await autoleavedb.insert_one({"chat_id": chat_id})
-
-
-async def autoleave_off():
-    chat_id = 1234
-    await autoleavedb.delete_one({"chat_id": chat_id})
 
 
 async def get_loop(chat_id: int) -> int:
