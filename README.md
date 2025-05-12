@@ -1,147 +1,96 @@
-<h1 align="center">🎵 TeamX Music Bot 🎵</h1>
+<h1 align="center">🎵 TeamX Music Bot</h1>
 
 <p align="center">
   <img src="https://files.catbox.moe/hxzqbf.jpg" alt="TeamX Music Logo" width="600" height="400">
 </p>
 
-
-<h2 align="center">Delivering Superior Music Experience to Telegram</h2>
-
----
-
-### 🛠 Fix for YouTube Blocking VPS IPs
-
-Due to YouTube blocking VPS IPs drastically, we have implemented a fix. Follow the steps below:
-
-1. **Join our Support Group**: Type `#script` in our [support group](https://t.me/TeamsXchat) to get the necessary script.
-2. **Run the Script**: Run the downloaded script on your Windows Desktop Through VS Code or any other Software to generate cookies.
-3. **Fork the Repository**: Fork this repository to your GitHub account.
-4. **Add Cookies**: Paste the generated cookies into the `cookies` folder in your forked repository.
-5. **Deploy the Bot**: Continue with the setup instructions as outlined above.
-
-This process will allow you to bypass the YouTube restrictions and ensure smooth operation of the bot.
-
----
-
-### 🌟 Features
-
-- 🎵 **Multiple Sources:** Play music from various platforms.
-- 📃 **Queue System:** Line up your favorite songs.
-- 🔀 **Advanced Controls:** Shuffle, repeat, and more.
-- 🎛 **Customizable Settings:** From equalizer to normalization.
-- 📢 **Crystal Clear Audio:** High-quality playback.
-- 🎚 **Volume Mastery:** Adjust to your preferred loudness.
-
----
-
-## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/strad-dev131/TeamXmusic)
-
----
-
-### 🔧 Quick Setup
-
-1. **Upgrade & Update:**
-   ```bash
-   sudo apt-get update && sudo apt-get upgrade -y
-   ```
-
-2. **Install Required Packages:**
-   ```bash
-   sudo apt-get install python3-pip ffmpeg -y
-   ```
-3. **Setting up PIP**
-   ```bash
-   sudo pip3 install -U pip
-   ```
-4. **Installing Node**
-   ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && source ~/.bashrc && nvm install v18
-   ```
-5. **Clone the Repository**
-   ```bash
-   git clone https://github.com/informasgher89745/TeamX2 && cd TeamX2
-   ```
-6. **Install Requirements**
-   ```bash
-   pip3 install -U -r requirements.txt
-   ```
-7. **Create .env  with sample.env**
-   ```bash
-   cp sample.env .env
-   ```
-   - Edit .env with your vars
-8. **Editing Vars:**
-   ```bash
-   vi .env
-   ```
-   - Edit .env with your values.
-   - Press `I` button on keyboard to start editing.
-   - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
-9. **Installing tmux**
-    ```bash
-    sudo apt install tmux -y && tmux
-    ```
-10. **Run the Bot**
-    ```bash
-    bash start
-    ```
-
----
-
-### 🛠 Commands & Usage
-
-The TeamX Music Bot offers a range of commands to enhance your music listening experience on Telegram:
-
-| Command                 | Description                                 |
-|-------------------------|---------------------------------------------|
-| `/play <song name>`     | Play the requested song.                    |
-| `/pause`                | Pause the currently playing song.           |
-| `/resume`               | Resume the paused song.                     |
-| `/skip`                 | Move to the next song in the queue.         |
-| `/stop`                 | Stop the bot and clear the queue.           |
-| `/queue`                | Display the list of songs in the queue.     |
-
-For a full list of commands, use `/help` in [telegram](https://t.me/TeamXBot).
-
----
-
-### 🔄 Updates & Support
-
-Stay updated with the latest features and improvements to TeamX Music Bot:
+<h3 align="center">Delivering Superior Music Experience to Telegram</h3>
 
 <p align="center">
-  <a href="https://t.me/TeamsXchat">
-    <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
-  </a>
-  <a href="https://t.me/TeamXUpdate">
-    <img src="https://img.shields.io/badge/Join-Update%20Channel-blue?style=for-the-badge&logo=telegram">
-  </a>
+  <a href="https://t.me/TeamsXchat"><img src="https://img.shields.io/badge/Support-Group-blue?style=for-the-badge&logo=telegram"></a>
+  <a href="https://t.me/TeamXUpdate"><img src="https://img.shields.io/badge/Updates-Channel-blue?style=for-the-badge&logo=telegram"></a>
+  <a href="https://github.com/informasgher89745/TeamX2/blob/main/LICENSE"><img src="https://img.shields.io/github/license/informasgher89745/TeamX2?style=for-the-badge"></a>
 </p>
 
 ---
 
-### 🤝 Contributing
+## 📚 Table of Contents
 
-We welcome contributions to the TeamX Music Bot project. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch with a meaningful name.
-3. Make your changes and commit them with a descriptive commit message.
-4. Open a pull request against our `main` branch.
-5. Our team will review your changes and provide feedback.
-
-For more details, reach out us on telegram.
-
----
-
-### 📜 License
-
-This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+- [🛠 YouTube Fix](#-youtube-fix)
+- [🌟 Features](#-features)
+- [🚀 Deploy on Heroku](#-deploy-on-heroku)
+- [⚙️ Quick Setup](#️-quick-setup)
+- [🎛 Commands](#-commands)
+- [🔄 Updates & Support](#-updates--support)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [🙏 Acknowledgements](#-acknowledgements)
 
 ---
 
-### 🙏 Acknowledgements
+## 🛠 YouTube Fix
 
-Thanks to all the contributors, supporters, and users of the TeamX Music Bot. Your feedback and support keep us going!
-- [Yukki Music](https://github.com/TeamYukki/YukkiMusicBot) and [AnonXMusic](https://github.com/AnonymousX1025/AnonXMusic) For their Source Codes.
+Due to YouTube blocking VPS IPs, we’ve implemented a workaround:
+
+1. **Join the [Support Group](https://t.me/TeamsXchat)** and type `#script` to get the script.
+2. **Run the script** on your Windows desktop via VS Code (or similar) to generate cookies.
+3. **Fork this repository**.
+4. **Paste the cookies** into the `cookies/` folder.
+5. **Deploy** the bot as shown in the instructions below.
+
+This bypass ensures smooth music playback even with YouTube restrictions.
+
+---
+
+## 🌟 Features
+
+- 🎧 **Multi-Source Streaming** – Play from YouTube, Telegram, and more.
+- 🎶 **Queue Support** – Add multiple tracks for seamless listening.
+- 🔁 **Playback Controls** – Skip, pause, resume, repeat, and shuffle.
+- 📢 **High-Quality Audio** – Crystal-clear sound output.
+- ⚙️ **Custom Settings** – Equalizer, volume control, and more.
+
+---
+
+## 🚀 Deploy on Heroku
+
+Click the button below to deploy the bot on Heroku instantly:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/strad-dev131/TeamXmusic)
+
+---
+
+## ⚙️ Quick Setup
+
+```bash
+# Step 1: Update your system
+sudo apt-get update && sudo apt-get upgrade -y
+
+# Step 2: Install required packages
+sudo apt-get install python3-pip ffmpeg -y
+
+# Step 3: Upgrade pip
+sudo pip3 install -U pip
+
+# Step 4: Install Node.js via NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc && nvm install v18
+
+# Step 5: Clone the repo
+git clone https://github.com/informasgher89745/TeamX2 && cd TeamX2
+
+# Step 6: Install Python requirements
+pip3 install -U -r requirements.txt
+
+# Step 7: Create your .env file
+cp sample.env .env
+
+# Step 8: Edit your environment variables
+vi .env
+# Press 'I' to insert, edit your values, then ':wq' to save and exit
+
+# Step 9: (Optional) Use tmux
+sudo apt install tmux -y && tmux
+
+# Step 10: Start the bot
+bash start
