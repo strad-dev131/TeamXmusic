@@ -81,7 +81,7 @@ Click the button below to deploy the bot on Heroku instantly:
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/informasgher89745/TeamX2 && cd TeamX2
+   git clone https://github.com/strad-dev131/TeamXmusic && cd TeamXmusic
    ```
 6. **Install Requirements**
    ```bash
