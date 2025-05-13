@@ -20,7 +20,7 @@
 - [🌟 Features](#-features)
 - [🚀 Deploy on Heroku](#-deploy-on-heroku)
 - [⚙️ Quick Setup](#️-quick-setup)
-- [🎛 Commands](#-Commands & Usage)
+- [🎛 Commands](#-Commands&Usage)
 - [🔄 Updates & Support](#-updates--support)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
