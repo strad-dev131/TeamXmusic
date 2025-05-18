@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://t.me/TeamsXchat"><img src="https://img.shields.io/badge/Support-Group-blue?style=for-the-badge&logo=telegram"></a>
   <a href="https://t.me/TeamXUpdate"><img src="https://img.shields.io/badge/Updates-Channel-blue?style=for-the-badge&logo=telegram"></a>
-  <a href="https://github.com/informasgher89745/TeamX2/blob/main/LICENSE"><img src="https://img.shields.io/github/license/informasgher89745/TeamX2?style=for-the-badge"></a>
+  <a href="https://github.com/strad-dev131/TeamXmusic/blob/main/LICENSE"><img src="https://img.shields.io/github/license/informasgher89745/TeamX2?style=for-the-badge"></a>
 </p>
 
 ---
