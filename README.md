@@ -165,4 +165,4 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 ### 🙏 Acknowledgements
 
 Thanks to all the contributors, supporters, and users of the TeamX Music Bot. Your feedback and support keep us going!
-- [Yukki Music](https://github.com/TeamYukki/YukkiMusicBot) and [AnonXMusic](https://github.com/AnonymousX1025/AnonXMusic) For their Source Codes.
+
