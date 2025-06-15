@@ -7,13 +7,13 @@ ffmpeg-python
 gitpython
 hachoir
 heroku3
-httpx[http2]==0.25.2
+httpx[http2]==0.27.2
 motor
 numpy
 opencv-python
 pillow==9.5.0
 psutil
-py-tgcalls==0.9.7
+py-tgcalls==2.2.3
 pykeyboard
 kurigram==2.1.35
 python-dotenv
